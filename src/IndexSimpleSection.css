@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.simple-section-black {
+  /*background: #222;*/
+  margin: 0%;
+  padding: 3%;
+  height: auto;
+  min-height: 550px;
+  overflow-y: auto;
+}
+
+.simple-section {
+    /*background: #f8f8f8;*/
+    margin: 0%;
+    padding: 3%;
+    height: auto;
+    min-height: 550px;
+    overflow-y: auto;
+    display: flex;
+  }
+
+.basic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;*/
+}
+
+.container-about {
+  display: flex;
+  margin: auto;
+  /*display: grid;
+  grid-template-columns: 1fr 1fr;*/
+}
+
+.contact .col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.text-blue{
+  color: #00ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.text-white{
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.title{
+  border-bottom: 2px solid #00ffffff;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.title-green{
+  border-bottom: 2px solid #79e17c;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.title-purple{
+  border-bottom: 2px solid #b19cd9;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.title-orange{
+  border-bottom: 2px solid #ffa500;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.title-yellow{
+  border-bottom: 2px solid #e0f638;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .container-about {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .image-about{
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container-about {
+    display: flex;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.text-missing{
+  color: #ff6347;
+  font-size: 80%;
+}
+
+.text-green{
+  color: #79e17c;
+  font-family: 'Lato', sans-serif;
+}
+
+.text-purple{
+  color: #b19cd9;
+  font-family: 'Lato', sans-serif;
+}
+
+.text-orange{
+  color: #ffa500;
+  font-family: 'Lato', sans-serif;
+}

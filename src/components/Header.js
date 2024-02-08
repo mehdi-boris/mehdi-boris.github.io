@@ -5,9 +5,9 @@ import styles from '../styles/Header.module.css'
 const Header = () => {
   const { activeLinkId } = useContext(NavContext);
 
-  const navLinks = ["Home", "Destinations", "Hotels", "Flights", "Bookings"];
+  const navLinks = ["About", "Career Highlights", "Academic History", "Computer Skills", "Certifications & Awards", "Hobbies", "Contact"];
   const handleClickLogo = () => {
-    document.getElementById("homeSection").scrollIntoView({ behavior: "smooth" })
+    document.getElementById("aboutSection").scrollIntoView({ behavior: "smooth" })
   }
 
   const renderNavLink = (content) => {
@@ -33,7 +33,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.navContainer}>
-          <h1 onClick={handleClickLogo}>Jadoo</h1>
+          <h1 onClick={handleClickLogo} className='global'> </h1>
           <nav>
             {navLinks.map(nav => renderNavLink(nav))}
           </nav>

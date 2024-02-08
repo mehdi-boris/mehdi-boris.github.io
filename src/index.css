@@ -25,9 +25,22 @@ code {
 section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   height: 100vh;
+}
+
+.title {
+  font-family: 'Times New Roman';
+  margin: auto;
+  margin: 2rem 0;
+}
+
+.title-white {
+  font-family: 'Times New Roman';
+  margin: auto;
+  margin: 2rem 0;
+  color: white;
 }
 
 .secondary-section {
@@ -35,6 +48,6 @@ section {
 }
 
 section h2 {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
 }

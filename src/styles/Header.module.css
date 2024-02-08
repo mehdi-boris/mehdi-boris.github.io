@@ -1,25 +1,29 @@
 .header {
-  background: #222;
+  background: black;
   color: #fff;
   padding: 1rem;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  z-index: 2;
 }
 
 .navContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .navContainer h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   cursor: pointer;
+  font-style: italic;
 }
 
 .navContainer nav {
@@ -61,4 +65,11 @@
   background: #eaeaea;
   bottom: -5px;
   left: 0;
+}
+
+/* Media Query to hide the header on small screens */
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
 }

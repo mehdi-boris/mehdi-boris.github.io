@@ -1,0 +1,82 @@
+.card-container{
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px #00ffffff;
+    transition: 0.3s;
+    animation: ease-in;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.card-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px #00ffffff;
+}
+
+.card-container-green{
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px #5ced73;
+    transition: 0.3s;
+    animation: ease-in;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.card-container-green:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px #5ced73;
+}
+
+.card-container-purple{
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px #b19cd9;
+    transition: 0.3s;
+    animation: ease-in;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.card-container-purple:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px #b19cd9;
+}
+
+.card-container-orange{
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px #ffa500;
+    transition: 0.3s;
+    animation: ease-in;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.card-container-orange:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px #ffa500;
+}
+
+.image-container img{
+    overflow: hidden;
+    height: 200px;
+}
+
+.card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+h3, p{
+    margin: 0;
+    padding: 0;
+}
+
+.card-title{
+    margin-bottom: 0.5rem;
+}

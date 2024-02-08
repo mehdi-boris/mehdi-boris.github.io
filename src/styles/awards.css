@@ -1,0 +1,12 @@
+#boxes {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+.div-awards {
+    margin: 15px;
+    text-align: center;
+    }

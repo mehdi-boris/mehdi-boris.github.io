@@ -1,0 +1,85 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container-sk {
+  width: 100%; /* Full width */
+  background-color: #222; /* Grey background */
+}
+
+.basic-sk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 1rem;
+}
+
+.margin-sk {
+    margin: 10px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 6px; /* Add top padding */
+  padding-bottom: 6px; /* Add bottom padding */
+  color: black; /* White text color */
+  background-color: #00FFFF;
+  border-radius: 15px;
+  line-height: 0%;
+  font-size: 10px;
+}
+
+.margin-sk:hover .skills{
+    background-color: #ff6347;
+}
+
+.margin-sk:hover .sk {
+    color: #ff6347;
+}
+
+.skills:hover {
+    background-color: #ff6347;
+}
+
+.bar {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.cpp {
+    width: 50%; 
+}
+
+.css {
+    width: 60%; 
+}
+
+.html {
+    width: 60%; 
+}
+
+.latex {
+    width: 80%; 
+}
+
+.py {
+    width: 95%; 
+}
+
+.react {
+    width: 50%; 
+}
+
+.vba {
+    width: 80%; 
+}
+
+.sk{
+    color: #00FFFF;
+}
+  
+.sk:hover{
+    color: #ff6347;
+}
