@@ -1,7 +1,7 @@
 {
   "name": "scrollable-single-app",
   "version": "0.1.0",
-  "homepage": "https://mehdi-boris.github.io",
+  "homepage": "https://paul-ndl.github.io/test-site/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
@@ -54,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.1.1"
   }
 }

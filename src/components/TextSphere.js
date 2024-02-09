@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import "../styles/TextSphere.css";
+import TagCloud from "TagCloud";
 
 
 const TextShpere = () => {
   // Animation settings for Text Cloud
   useEffect(() => {
-    return () => {
-      const TagCloud = require('TagCloud');
       const container = ".tagcloud";
       const texts = [
         "HTML",
@@ -33,7 +32,6 @@ const TextShpere = () => {
       };
 
       TagCloud(container, texts, options);
-    };
   }, []);
 
   return (

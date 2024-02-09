@@ -22,7 +22,7 @@ const About = () => {
       <div className='contact'>
             <div className='container-about'>
                 <div className="basic">
-                <img className="image-about" src='images/photo_pro_taille_3.png' alt='pro_picture' width="75%"/>
+                <img className="image-about" src={process.env.PUBLIC_URL + '/images/photo_pro_taille_3.png'} alt='pro_picture' width="75%"/>
                 </div>
                 <div className='col-2'>
                 <span className='line'></span>

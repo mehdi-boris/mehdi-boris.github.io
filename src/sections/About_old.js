@@ -20,7 +20,7 @@ const About = () => {
   return (
     <section ref={aboutRef} id="aboutSection">
       <div className='about' id='about'>
-      <img src='images/photo_pro_taille_3.png' alt='pro_picture'/>
+      <img src={process.env.PUBLIC_URL + 'images/photo_pro_taille_3.png'} alt='pro_picture'/>
           <div className='col-2'>
               <h2 className="title">About</h2>
               <span className='line'></span>
