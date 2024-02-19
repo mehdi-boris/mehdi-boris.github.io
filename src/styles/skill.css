@@ -76,6 +76,19 @@
     width: 80%; 
 }
 
+@media screen and (max-width: 768px) {
+    .container-sk {
+        width: 90%; /* Full width */
+        background-color: #222; /* Grey background */
+      }
+    
+    .bar {
+        width: 100%;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+    }
+}
+
 .sk{
     color: #00FFFF;
 }
