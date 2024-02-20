@@ -1,9 +1,10 @@
 #boxes {
-    height: 50vh;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     }
 
 .div-awards {
