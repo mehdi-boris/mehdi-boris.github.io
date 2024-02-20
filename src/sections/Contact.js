@@ -43,7 +43,7 @@ const Contact = () => {
             <p className="text-white">I'm open to exploring and implementing fresh ideas and projects.</p>
             <p className="text-white">Let's talk and find a fit.</p>
             <div style={{ margin: '20px' }}>
-              <a href="https://www.linkedin.com/in/boris-bouhali-b71a58159/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/mehdi-boris-bouhali-b71a58159/" target="_blank" rel="noopener noreferrer">
                 <AiOutlineLinkedin size={42} style={{ color: '#00ffffff' }} />
               </a>
             </div>

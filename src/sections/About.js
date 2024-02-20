@@ -33,7 +33,7 @@ const About = () => {
                   ]}
                   speed={{ type: 'keyStrokeDelayInMs', value: 70 }}
                   omitDeletionAnimation={true}
-                  style={{whiteSpace: 'pre-line', fontSize: '1em', display: 'block', minHeight: '200px', width: '100%', color: 'white', margin:'15px'}}
+                  style={{whiteSpace: 'pre-line', fontSize: '1em', display: 'block', minHeight: '200px', width: '100%', color: 'white', margin:'15px', textAlign: 'justify'}}
                   repeat={0}
               />
               <button className='button-resume' onClick={()=>{downloadFileAtURL('http://localhost:3000/Resume.pdf')}}>Resume</button>

@@ -25,18 +25,16 @@ const Experiences = () => {
     <h3 className="vertical-timeline-element-title">Actuarial Specialist & Python Developer</h3>
     <h4 className="vertical-timeline-element-subtitle">Vaudoise Assurances / Lausanne, Switzerland</h4>
     <p>
-      Member of the Product Development team :
+      Member of the Product Development team:<br/>
+      &#8226; Developing calculation and simulation tools in Python (portfolio control, profit testing, user interface, ...)<br/>
+      &#8226; Project Manager : development of a calculation and configuration universal platform <br/>
+      &#8226; Analyzing, maintaining and monitoring the integrity of management systems (data analysis with Python)<br/>
+      &#8226; Designing new products<br/>
+      &#8226; Writing technical specifications<br/>
+      &#8226; Configuring management systems and creating test plan<br/>
+      &#8226; Technical support for line activities<br/>
+      &#8226; Supervision of interns<br/>
     </p>
-    <ul>
-      <li>&#8226; Developing calculation and simulation tools in Python (portfolio control, profit testing, user interface, ...)</li>
-      <li>&#8226; Project Manager : development of a calculation and configuration universal platform </li>
-      <li>&#8226; Analyzing, maintaining and monitoring the integrity of management systems (data analysis with Python)</li>
-      <li>&#8226; Designing new products</li>
-      <li>&#8226; Writing technical specifications</li>
-      <li>&#8226; Configuring management systems and creating test plan</li>
-      <li>&#8226; Technical support for line activities</li>
-      <li>&#8226; Supervision of interns</li>
-    </ul>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
