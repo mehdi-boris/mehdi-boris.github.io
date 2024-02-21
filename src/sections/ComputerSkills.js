@@ -18,7 +18,7 @@ const ComputerSkills = () => {
                     <p className="sk">C++</p>
                     <AnimationOnScroll className="container-sk" animateIn="animate__fadeInLeft" offset={20}>
                         <div className="bar">
-                          <div className="skills cpp">50%</div>
+                          <div className="skills cpp">30%</div>
                         </div>
                     </AnimationOnScroll>  
                   </div>
@@ -50,7 +50,7 @@ const ComputerSkills = () => {
                     <p className="sk">Python</p>
                     <AnimationOnScroll className="container-sk" animateIn="animate__fadeInLeft" offset={20}>
                         <div className="bar">
-                          <div className="skills py">95%</div>
+                          <div className="skills py">80%</div>
                         </div>
                     </AnimationOnScroll>  
                   </div>
@@ -58,7 +58,7 @@ const ComputerSkills = () => {
                     <p className="sk">React</p>
                     <AnimationOnScroll className="container-sk" animateIn="animate__fadeInLeft" offset={20}>
                         <div className="bar">
-                          <div className="skills react">50%</div>
+                          <div className="skills react">40%</div>
                         </div>
                     </AnimationOnScroll>  
                   </div>
@@ -66,7 +66,7 @@ const ComputerSkills = () => {
                     <p className="sk">VBA</p>
                     <AnimationOnScroll className="container-sk" animateIn="animate__fadeInLeft" offset={20}>
                         <div className="bar">
-                          <div className="skills vba">80%</div>
+                          <div className="skills vba">70%</div>
                         </div>
                     </AnimationOnScroll> 
                   </div>

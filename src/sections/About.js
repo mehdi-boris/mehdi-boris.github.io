@@ -36,7 +36,7 @@ const About = () => {
                   style={{whiteSpace: 'pre-line', fontSize: '1em', display: 'block', minHeight: '200px', width: '100%', color: 'white', margin:'15px', textAlign: 'justify'}}
                   repeat={0}
               />
-              <button className='button-resume' onClick={()=>{downloadFileAtURL('/Resume.pdf')}}>Resume</button>
+              <button className='button-resume' onClick={()=>{downloadFileAtURL('/Resume_bouhali.pdf')}}>Resume</button>
                 </div>
             </div>
         </div>
