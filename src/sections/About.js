@@ -1,6 +1,6 @@
 import { useNav } from "../hooks/useNav"
-import '../ButtonResume.css'
-import '../IndexSimpleSection.css'
+import '../styles/Button.css'
+import '../styles/IndexSimpleSection.css'
 import { TypeAnimation } from 'react-type-animation';
 
 const About = () => {

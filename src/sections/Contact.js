@@ -1,9 +1,8 @@
 import { useNav } from "../hooks/useNav"
-import '../IndexSimpleSection.css'
-import '../Form.css'
-import '../ButtonResume.css'
+import '../styles/IndexSimpleSection.css'
+import '../styles/Form.css'
+import '../styles/Button.css'
 import { AiOutlineLinkedin } from "react-icons/ai";
-import '../Icons.css'
 import { useForm } from "react-hook-form"
 import emailjs from "@emailjs/browser"
 import React, { useState, useEffect } from 'react';

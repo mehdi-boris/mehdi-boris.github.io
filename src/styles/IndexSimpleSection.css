@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .simple-section-black {
-  /*background: #222;*/
   margin: 0%;
   padding: 3%;
   height: auto;
@@ -10,7 +9,6 @@
 }
 
 .simple-section {
-    /*background: #f8f8f8;*/
     margin: 0%;
     padding: 3%;
     height: auto;

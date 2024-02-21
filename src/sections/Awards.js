@@ -1,5 +1,5 @@
 import { useNav } from "../hooks/useNav"
-import '../IndexSimpleSection.css'
+import '../styles/IndexSimpleSection.css'
 import '../styles/awards.css'
 import { GiRadioactive } from "react-icons/gi";
 import { GoTrophy } from "react-icons/go";

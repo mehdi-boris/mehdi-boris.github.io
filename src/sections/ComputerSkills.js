@@ -1,5 +1,5 @@
 import { useNav } from "../hooks/useNav"
-import '../IndexSimpleSection.css'
+import '../styles/IndexSimpleSection.css'
 import '../styles/skill.css'
 import TextShpere from "../components/TextSphere"
 import { AnimationOnScroll } from 'react-animation-on-scroll';

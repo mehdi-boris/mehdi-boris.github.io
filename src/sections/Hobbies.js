@@ -1,5 +1,5 @@
 import { useNav } from "../hooks/useNav"
-import '../IndexSimpleSection.css'
+import '../styles/IndexSimpleSection.css'
 import '../styles/hobbies.css'
 import Card from "../components/Card"
 
